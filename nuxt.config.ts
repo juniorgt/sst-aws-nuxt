@@ -8,4 +8,5 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+  nitro: { preset: 'aws-lambda' },
 })
